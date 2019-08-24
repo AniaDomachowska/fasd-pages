@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dialog.mopsgdynia.pl/</loc>
+    <loc>https://aniadomachowska.github.io/fasd-pages/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://dialog.mopsgdynia.pl/pl/"
+                href="https://aniadomachowska.github.io/fasd-pages/pl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://dialog.mopsgdynia.pl/"
+                href="https://aniadomachowska.github.io/fasd-pages/"
                 />
   </url>
   
   <url>
-    <loc>http://dialog.mopsgdynia.pl/categories/</loc>
+    <loc>https://aniadomachowska.github.io/fasd-pages/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://dialog.mopsgdynia.pl/pl/categories/"
+                href="https://aniadomachowska.github.io/fasd-pages/pl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://dialog.mopsgdynia.pl/categories/"
+                href="https://aniadomachowska.github.io/fasd-pages/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://dialog.mopsgdynia.pl/tags/</loc>
+    <loc>https://aniadomachowska.github.io/fasd-pages/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://dialog.mopsgdynia.pl/pl/tags/"
+                href="https://aniadomachowska.github.io/fasd-pages/pl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://dialog.mopsgdynia.pl/tags/"
+                href="https://aniadomachowska.github.io/fasd-pages/tags/"
                 />
   </url>
   
