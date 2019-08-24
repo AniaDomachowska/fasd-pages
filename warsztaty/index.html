@@ -1,0 +1,598 @@
+<!doctype html>
+
+
+
+
+<html class="no-js" lang="">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Warsztaty</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="INDEX, FOLLOW">
+  <link rel="stylesheet" href="http://dialog.mopsgdynia.pl//css/normalize.min.css">
+  <link rel="stylesheet" href="http://dialog.mopsgdynia.pl//css/main.css">
+  <link rel="stylesheet" href="http://dialog.mopsgdynia.pl//css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="http://dialog.mopsgdynia.pl//css/bootstrap-image-gallery.min.css">
+  <link rel="stylesheet" href="http://dialog.mopsgdynia.pl//css/blueimp-gallery.css">
+  <link href="http://dialog.mopsgdynia.pl//css/nanogallery.css" rel="stylesheet" type="text/css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://dialog.mopsgdynia.pl//js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="http://dialog.mopsgdynia.pl//js/tether.min.js"></script>
+  <script src="http://dialog.mopsgdynia.pl//js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      $(window).on('scroll', function() {
+        var scrolltop = jQuery(this).scrollTop();
+
+        if (scrolltop >= 215) {
+          jQuery('#fixedbar').fadeIn(250);
+        } else if (scrolltop <= 210) {
+          jQuery('#fixedbar').fadeOut(250);
+        }
+      });
+
+
+      var $languages = $('ul.languages'),
+        $languagesli = $languages.children('li');
+      $languages.hide();
+      $languagesli.sort(function(a, b) {
+        var an = a.getAttribute('index'),
+          bn = b.getAttribute('index');
+
+        return an === bn ? 0 : (an < bn) ? 1 : -1;
+      });
+
+      var languagesHtml = $languagesli.html();
+      $languages.empty().append($languagesli);
+      $languages.show();
+    });
+  </script>
+</head>
+
+<body>
+  
+
+
+  <div class="header-container-pl">
+
+    
+    <a href="http://dialog.mopsgdynia.pl/">
+      <header class="wrapper clearfix">
+
+      </header>
+    </a>
+  </div>
+
+
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+
+          
+          <nav id="fixedbar">
+            
+ 
+<ul class="menuTop">
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/strona%20glowna.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/program/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/program.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/formularz/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/formularz.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/warsztaty/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/warsztaty.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/prelegenci/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/prelegenci.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+    <div class="dropdown" style="display: inline;">
+      <img style="margin-top:-2px" src="http://dialog.mopsgdynia.pl//images/menu_pl/informacje.png" />
+      <b class="caret"></b>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="http://dialog.mopsgdynia.pl/informacje/">
+            
+              <img src="http://dialog.mopsgdynia.pl//images/menu_pl/miejsce.png" />
+            
+          </a>
+        </li>
+        
+        <li>
+          <a href="http://dialog.mopsgdynia.pl/noclegi/">
+            
+              <img src="http://dialog.mopsgdynia.pl//images/menu_pl/noclegi.png" />
+            
+          </a>
+        </li>
+        
+        <li>
+          <a href="http://dialog.mopsgdynia.pl/komunikacja/">
+            
+              <img src="http://dialog.mopsgdynia.pl//images/menu_pl/komunikacja.png" />
+            
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/integracja/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/integracja.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/galeria/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/galeria.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+</ul>
+
+           </nav>
+
+           <nav>
+              
+ 
+<ul class="menuTop">
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/strona%20glowna.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/program/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/program.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/formularz/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/formularz.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/warsztaty/">
+            
+            			<img src="http://dialog.mopsgdynia.pl//images/menu_pl/warsztaty%20sel.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/prelegenci/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/prelegenci.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+    <div class="dropdown" style="display: inline;">
+      <img style="margin-top:-2px" src="http://dialog.mopsgdynia.pl//images/menu_pl/informacje.png" />
+      <b class="caret"></b>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="http://dialog.mopsgdynia.pl/informacje/">
+            
+              <img src="http://dialog.mopsgdynia.pl//images/menu_pl/miejsce.png" />
+            
+          </a>
+        </li>
+        
+        <li>
+          <a href="http://dialog.mopsgdynia.pl/noclegi/">
+            
+              <img src="http://dialog.mopsgdynia.pl//images/menu_pl/noclegi.png" />
+            
+          </a>
+        </li>
+        
+        <li>
+          <a href="http://dialog.mopsgdynia.pl/komunikacja/">
+            
+              <img src="http://dialog.mopsgdynia.pl//images/menu_pl/komunikacja.png" />
+            
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/integracja/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/integracja.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+  <li>
+    
+    
+    
+    
+    
+      <a href="http://dialog.mopsgdynia.pl/galeria/">
+            
+									<img src="http://dialog.mopsgdynia.pl//images/menu_pl/galeria.png" />
+            
+      </a> 
+    </a>
+  </li>
+  
+</ul>
+
+           </nav>
+
+		<article>
+        <header>
+            <h1><a href="http://dialog.mopsgdynia.pl/warsztaty/">Warsztaty</a></h1>
+        </header>
+        <p>Poniżej znajdą Państwo szczegółowy opis warsztatów zaplanowanych<span style="white-space: nowrap"> w
+programie</span> drugiego dnia konferencji. Zachęcamy do zapoznania się<span style="white-space: nowrap"> z
+założeniami</span><span style="white-space: nowrap"> i celami</span> każdego<span style="white-space: nowrap"> z nich,</span><span style="white-space: nowrap"> a następnie</span> dokonanie<span style="white-space: nowrap"> w formularzu</span>
+zgłoszeniowym wyboru jednego,<span style="white-space: nowrap"> w którym</span> chcieliby Państwo uczestniczyć.</p>
+
+<p><strong>---</strong></p>
+
+<p><strong>Warsztat 1: Organizacja środowiska rozwojowego dla dziecka<span style="white-space: nowrap"> z FASD</strong></p></span>
+
+<p><strong>Moderator:</strong> dr n. społ. Teresa Jadczak Szumiło<span style="white-space: nowrap"> - psycholog</p></span>
+
+<p><strong>O warsztacie:</strong> Dzieci<span style="white-space: nowrap"> z uszkodzeniami</span> OUN na skutek prenatalnej
+ekspozycji na alkohol wymagają adekwatnego wsparcia by rozwijać swój
+potencjał, uniknąć wykluczenia. Ważne, by opiekun dziecka<span style="white-space: nowrap"> z FASD</span>
+wiedział jak ma wprowadzać<span style="white-space: nowrap"> w życie</span> zalecenia wynikające<span style="white-space: nowrap"> z diagnozy;</span> co
+zrobić, by nie wystąpiły zaburzenia wtórne na skutek braku adekwatnej
+pomocy;<span style="white-space: nowrap"> W ramach</span> tego warsztatu dowiedzie się Państwo jakiego wsparcia
+udzielać dzieciom na różnym etapie rozwoju.</p>
+
+<p><strong>Warsztaty przeznaczone<span style="white-space: nowrap"> w szczególności</span> dla:</strong> wychowawców<span style="white-space: nowrap"> z Placówek</span>
+Opiekuńczo- Wychowawczych, opiekunów<span style="white-space: nowrap"> z Rodzinnych</span> Domów Dziecka,
+rodziców biologicznych, adopcyjnych, zastępczych, asystentów rodzin,
+kuratorów.</p>
+
+<p>Poniżej znajdą Państwo szczegółowy opis warsztatów zaplanowanych<span style="white-space: nowrap"> w
+programie</span> drugiego dnia konferencji. Zachęcamy do zapoznania się<span style="white-space: nowrap"> z
+założeniami</span><span style="white-space: nowrap"> i celami</span> każdego<span style="white-space: nowrap"> z nich,</span><span style="white-space: nowrap"> a następnie</span> dokonanie<span style="white-space: nowrap"> w formularzu</span>
+zgłoszeniowym wyboru jednego,<span style="white-space: nowrap"> w którym</span> chcieliby Państwo uczestniczyć.</p>
+
+<p><strong>---</strong></p>
+
+<p><strong>Warsztat 1: Organizacja środowiska rozwojowego dla dziecka<span style="white-space: nowrap"> z FASD</strong></p></span>
+
+<p><strong>Moderator:</strong> dr n. społ. Teresa Jadczak Szumiło<span style="white-space: nowrap"> - psycholog</p></span>
+
+<p><strong>O warsztacie:</strong> Dzieci<span style="white-space: nowrap"> z uszkodzeniami</span> OUN na skutek prenatalnej
+ekspozycji na alkohol wymagają adekwatnego wsparcia by rozwijać swój
+potencjał, uniknąć wykluczenia. Ważne, by opiekun dziecka<span style="white-space: nowrap"> z FASD</span>
+wiedział jak ma wprowadzać<span style="white-space: nowrap"> w życie</span> zalecenia wynikające<span style="white-space: nowrap"> z diagnozy;</span> co
+zrobić, by nie wystąpiły zaburzenia wtórne na skutek braku adekwatnej
+pomocy;<span style="white-space: nowrap"> W ramach</span> tego warsztatu dowiedzie się Państwo jakiego wsparcia
+udzielać dzieciom na różnym etapie rozwoju.</p>
+
+<p><strong>Warsztaty przeznaczone<span style="white-space: nowrap"> w szczególności</span> dla:</strong> wychowawców<span style="white-space: nowrap"> z Placówek</span>
+Opiekuńczo- Wychowawczych, opiekunów<span style="white-space: nowrap"> z Rodzinnych</span> Domów Dziecka,
+rodziców biologicznych, adopcyjnych, zastępczych, asystentów rodzin,
+kuratorów.</p>
+
+<p><strong>---</strong></p>
+
+<p><strong>Warsztat 2: Dostosowanie środowiska edukacyjnego dla dzieci<span style="white-space: nowrap"> z FASD</span><span style="white-space: nowrap"> w
+warunkach</span> polskiej szkoły</strong></p>
+
+<p><strong>Moderator:</strong> mgr Anna Piaskowska<span style="white-space: nowrap"> - psycholog</p></span>
+
+<p><strong>O warsztacie:</strong> Dzieci<span style="white-space: nowrap"> z FASD</span> nie muszą być objęte nauczaniem
+specjalnym, ale<span style="white-space: nowrap"> w obszarach,</span> gdzie ich trudności wynikają<span style="white-space: nowrap"> z uszkodzenia</span>
+OUN, wymagają zrozumienia<span style="white-space: nowrap"> i wsparcia</span><span style="white-space: nowrap"> w procesie</span> edukacyjnym.<span style="white-space: nowrap"> W trakcie</span>
+warsztatu dowiecie się Państwo<span style="white-space: nowrap"> z jakimi</span> trudnościami borykają się dzieci<span style="white-space: nowrap">
+z FASD,</span> jak wspierać ich proces edukacyjny, co jest im niezbędne oraz
+jakie metody pomagają im<span style="white-space: nowrap"> w prawidłowym</span> funkcjonowaniu<span style="white-space: nowrap"> w warunkach</span>
+szkolnych.</p>
+
+<p><strong>Warsztaty przeznaczone<span style="white-space: nowrap"> w szczególności</span> dla:</strong> nauczycieli, pedagogów,
+psychologów szkolnych, pracowników Poradni Psychologiczno-Pedagogicznej</p>
+
+<p><strong>---</strong></p>
+
+<p><strong>Warsztat 3: „Ten nakład się opłaca&rdquo;</strong></p>
+
+<p><strong>Moderator:</strong> mgr Mirosława Jezior<span style="white-space: nowrap"> - Dyrektor</span> MOPS Gdynia</p>
+
+<p><strong>O warsztacie:</strong> Warsztat ma na celu pokazanie korzyści<span style="white-space: nowrap"> z poniesionych</span>
+nakładów finansowych przez gminę. Wskazanie możliwości etapowego lub od
+razu finalnego dochodzenia do utworzenia miejsca wsparcia dla dzieci<span style="white-space: nowrap"> i
+rodziców</span><span style="white-space: nowrap"> z FASD.</span> Pokazanie możliwości uniknięcia długofalowych,
+ciągnionych kosztów zaniechania działań<span style="white-space: nowrap"> w obszarze</span> FASD.</p>
+
+<p><strong>Warsztaty przeznaczone<span style="white-space: nowrap"> w szczególności</span> dla:</strong> radnych, dyrektorów
+placówek oświatowych<span style="white-space: nowrap"> i pomocowych,</span> polityków<span style="white-space: nowrap"> i aktywistów</span> lokalnej
+społeczności, sędziów</p>
+
+
+    </article>
+<div class="footer-container">
+  <footer class="wrapper">
+    <img width="790" src="http://dialog.mopsgdynia.pl//images/footer pl.png" />
+  </footer>
+</div>
+<div class="bottom-bar"></div>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+  <!--
+
+    if (document.images) {
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/strona glowna sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/program sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/formularz sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/warsztaty sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/prelegenci sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/informacje sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/integracja sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/galeria sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/noclegi sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/komunikacja sel.png";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/";
+      
+        img1 = new Image();
+
+        img1.src = "http:\/\/dialog.mopsgdynia.pl\//images/";
+      
+    }
+
+  
+</script>
+
+<script>
+  window.jQuery || document.write('<script src="http:\/\/dialog.mopsgdynia.pl\//js/vendor/jquery-1.11.2.min.js"><\/script>')
+</script>
+
+<script src="http://dialog.mopsgdynia.pl//js/main.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://dialog.mopsgdynia.pl//js/blueimp-gallery.js"></script>
+<script src="http://dialog.mopsgdynia.pl//js/jquery.blueimp-gallery.js"></script>
+<script type="text/javascript" src="http://dialog.mopsgdynia.pl//js/jquery.nanogallery.js"></script>
+<script>
+  $(document).ready(function() {
+    $("#nanoGallery3").nanoGallery({
+      colorScheme: "colorScheme",
+      thumbnailWidth: 150,
+      humbnailHeight: 150,
+      thumbnailDisplayInterval: 10,
+      thumbnailDisplayTransition: true,
+      paginationMaxLinesPerPage: 5,
+      thumbnailLabel: {
+        hideIcons: true
+      },
+      i18n: {
+        paginationPrevious: 'Previous',
+        paginationPrevious_PL: 'Poprzednia',
+        paginationNext: 'Next',
+        paginationNext_PL: 'Następna'
+      }
+    });
+  });
+</script>
+<script src="http://dialog.mopsgdynia.pl//js/bootstrap-image-gallery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.dropdown').hover(
+      function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+      },
+      function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+      }
+    );
+
+    $('.dropdown-menu').hover(
+      function() {
+        $(this).stop(true, true);
+      },
+      function() {
+        $(this).stop(true, true).delay(200).fadeOut();
+      }
+    );
+  });
+</script>
+</body>
+
+</html>
+

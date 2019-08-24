@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://dialog.mopsgdynia.pl/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://dialog.mopsgdynia.pl/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://dialog.mopsgdynia.pl/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://dialog.mopsgdynia.pl/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://dialog.mopsgdynia.pl/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://dialog.mopsgdynia.pl/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://dialog.mopsgdynia.pl/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://dialog.mopsgdynia.pl/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://dialog.mopsgdynia.pl/tags/"
+                />
+  </url>
+  
+</urlset>
